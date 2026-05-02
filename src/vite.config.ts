@@ -10,6 +10,8 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  // ADD THIS LINE BELOW (Replace with your actual repo name)
+  base: "/Medusa-s-Portfolio/", 
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
